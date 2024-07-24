@@ -36,8 +36,14 @@ $phtml = Phtml::new('path/to/templates', 'path/to/cache');
 
 $phtml->registerNamespace('html', 'path/to/templates/html');
 
-// dot separated path to "path/to/templates/html/element/p.phtml" template file.
-$html = $phtml->render('html::element.p',['message' => '#BlackLivesMatter']);
+// File: path/to/templates/html/element/paragraph.phtml
+// Content: <p>{{ $message }}</p>
+
+// "html" is the namespace.
+// "element" is the directory name inside the namespace.
+// "paragraph" is the template filename inside the directory, without the ".phtml" extension.
+
+$html = $phtml->render('html::element.paragraph',['message' => '#BlackLivesMatter']);
 
 echo $html; // <p>#BlackLivesMatter</p>
 ```
