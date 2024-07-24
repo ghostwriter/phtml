@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.25.0@01a8eb06b9e9cc6cfb6a320bf9fb14331919d505"/>
+<files psalm-version="5.25.0@01a8eb06b9e9cc6cfb6a320bf9fb14331919d505">
+  <file src="src/Exception/TemplateNotFoundException.php">
+    <UnusedClass>
+      <code><![CDATA[TemplateNotFoundException]]></code>
+    </UnusedClass>
+  </file>
+  <file src="src/Interface/PathInterface.php">
+    <PossiblyUnusedMethod>
+      <code><![CDATA[toString]]></code>
+    </PossiblyUnusedMethod>
+  </file>
+  <file src="src/Interface/PhtmlInterface.php">
+    <PossiblyUnusedMethod>
+      <code><![CDATA[render]]></code>
+    </PossiblyUnusedMethod>
+  </file>
+  <file src="src/Phtml.php">
+    <PossiblyUnusedMethod>
+      <code><![CDATA[cachePath]]></code>
+      <code><![CDATA[e]]></code>
+      <code><![CDATA[new]]></code>
+      <code><![CDATA[templatePath]]></code>
+    </PossiblyUnusedMethod>
+    <UnresolvableInclude>
+      <code><![CDATA[include $template]]></code>
+    </UnresolvableInclude>
+  </file>
+</files>
