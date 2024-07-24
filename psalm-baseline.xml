@@ -5,11 +5,6 @@
       <code><![CDATA[TemplateNotFoundException]]></code>
     </UnusedClass>
   </file>
-  <file src="src/Interface/PathInterface.php">
-    <PossiblyUnusedMethod>
-      <code><![CDATA[toString]]></code>
-    </PossiblyUnusedMethod>
-  </file>
   <file src="src/Interface/PhtmlInterface.php">
     <PossiblyUnusedMethod>
       <code><![CDATA[render]]></code>
@@ -17,10 +12,7 @@
   </file>
   <file src="src/Phtml.php">
     <PossiblyUnusedMethod>
-      <code><![CDATA[cachePath]]></code>
       <code><![CDATA[e]]></code>
-      <code><![CDATA[new]]></code>
-      <code><![CDATA[templatePath]]></code>
     </PossiblyUnusedMethod>
     <UnresolvableInclude>
       <code><![CDATA[include $template]]></code>
