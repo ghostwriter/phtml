@@ -1,6 +1,6 @@
 # Phtml
 
-[![Compliance](https://github.com/ghostwriter/phtml/actions/workflows/compliance.yml/badge.svg)](https://github.com/ghostwriter/phtml/actions/workflows/compliance.yml)
+[![Automation](https://github.com/ghostwriter/phtml/actions/workflows/automation.yml/badge.svg)](https://github.com/ghostwriter/phtml/actions/workflows/automation.yml)
 [![Supported PHP Version](https://badgen.net/packagist/php/ghostwriter/phtml?color=8892bf)](https://www.php.net/supported-versions)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/ghostwriter?label=Sponsor+@ghostwriter/phtml&logo=GitHub+Sponsors)](https://github.com/sponsors/ghostwriter)
 [![Code Coverage](https://codecov.io/gh/ghostwriter/phtml/branch/main/graph/badge.svg)](https://codecov.io/gh/ghostwriter/phtml)
