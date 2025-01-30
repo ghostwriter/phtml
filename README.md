@@ -1,12 +1,8 @@
 # Phtml
 
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/ghostwriter?label=Sponsor+@ghostwriter/phtml&logo=GitHub+Sponsors)](https://github.com/sponsors/ghostwriter)
 [![Automation](https://github.com/ghostwriter/phtml/actions/workflows/automation.yml/badge.svg)](https://github.com/ghostwriter/phtml/actions/workflows/automation.yml)
 [![Supported PHP Version](https://badgen.net/packagist/php/ghostwriter/phtml?color=8892bf)](https://www.php.net/supported-versions)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/ghostwriter?label=Sponsor+@ghostwriter/phtml&logo=GitHub+Sponsors)](https://github.com/sponsors/ghostwriter)
-[![Code Coverage](https://codecov.io/gh/ghostwriter/phtml/branch/main/graph/badge.svg)](https://codecov.io/gh/ghostwriter/phtml)
-[![Type Coverage](https://shepherd.dev/github/ghostwriter/phtml/coverage.svg)](https://shepherd.dev/github/ghostwriter/phtml)
-[![Psalm Level](https://shepherd.dev/github/ghostwriter/phtml/level.svg)](https://psalm.dev/docs/running_psalm/error_levels)
-[![Latest Version on Packagist](https://badgen.net/packagist/v/ghostwriter/phtml)](https://packagist.org/packages/ghostwriter/phtml)
 [![Downloads](https://badgen.net/packagist/dt/ghostwriter/phtml?color=blue)](https://packagist.org/packages/ghostwriter/phtml)
 
 A powerful PHP template engine designed to deliver high-performance, extensibility, and security.
