@@ -1,6 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.lock text -diff
 *.md text diff=markdown
 *.php text eol=lf diff=php
 /.editorconfig export-ignore
@@ -11,6 +10,4 @@
 /docs export-ignore
 /infection.json5.dist export-ignore
 /phpunit.xml.dist export-ignore
-/psalm-baseline.xml export-ignore
-/psalm.xml.dist export-ignore
 /tests export-ignore
