@@ -59,11 +59,11 @@
         "psr-4": {
             "Tests\\Unit\\": "tests/unit/"
         },
-        "exclude-from-classmap": [
-            "tests/fixture/"
-        ],
         "files": [
             "tests/functions.php"
+        ],
+        "exclude-from-classmap": [
+            "tests/fixture/"
         ]
     },
     "config": {
