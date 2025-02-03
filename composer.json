@@ -52,13 +52,19 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Ghostwriter\\Phtml\\": "src"
+            "Ghostwriter\\Phtml\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests"
-        }
+            "Tests\\Unit\\": "tests/unit/"
+        },
+        "exclude-from-classmap": [
+            "tests/fixture/"
+        ],
+        "files": [
+            "tests/functions.php"
+        ]
     },
     "config": {
         "allow-plugins": {
