@@ -12,7 +12,7 @@ if (! $classLoader instanceof ClassLoader) {
     throw new \RuntimeException('Class loader not found');
 }
 
-    $path = __DIR__ . \DIRECTORY_SEPARATOR . 'Fixture';
+$path = __DIR__ . \DIRECTORY_SEPARATOR . 'Fixture';
 
 if (\is_dir($path)) {
     /** @psalm-suppress UncaughtThrowInGlobalScope */
