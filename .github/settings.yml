@@ -3,7 +3,6 @@
   "description": "[WIP] A powerful PHP template engine designed to deliver high-performance, extensibility, and security"
   "homepage": "https://github.com/ghostwriter/phtml"
   "topics": "ghostwriter, php, phtml, template-engine"
-  "private": false
   "has_issues": true
   "has_projects": false
   "has_wiki": false
