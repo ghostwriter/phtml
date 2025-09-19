@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec1fed8f373e0813724e4cb564cefa90",
+    "content-hash": "8985c3865138960b4bc1ca855a5f98f3",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
