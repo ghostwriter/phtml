@@ -1305,12 +1305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "3ae3e7ee0910cfee6f848a5e2328672f378adcb6"
+                "reference": "eb4a5f0d8fc4c82c89fc26c83e4883979f0eadad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/3ae3e7ee0910cfee6f848a5e2328672f378adcb6",
-                "reference": "3ae3e7ee0910cfee6f848a5e2328672f378adcb6",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/eb4a5f0d8fc4c82c89fc26c83e4883979f0eadad",
+                "reference": "eb4a5f0d8fc4c82c89fc26c83e4883979f0eadad",
                 "shasum": ""
             },
             "require": {
@@ -1340,16 +1340,6 @@
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
                 "ext-zlib": "*",
-                "ghostwriter/case-converter": "^2.1.0",
-                "ghostwriter/clock": "^3.0.1",
-                "ghostwriter/config": "^1.0.0",
-                "ghostwriter/container": "^5.0.1",
-                "ghostwriter/event-dispatcher": "^5.0.3",
-                "ghostwriter/filesystem": "^0.1.1",
-                "ghostwriter/json": "^3.0.0",
-                "ghostwriter/option": "^2.0.0",
-                "ghostwriter/result": "^2.0.0",
-                "ghostwriter/shell": "^0.1.0",
                 "php": "~8.4.0 || ~8.5.0",
                 "symfony/console": "^7.3.5"
             },
@@ -1466,67 +1456,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-10-30T17:11:59+00:00"
-        },
-        {
-            "name": "ghostwriter/filesystem",
-            "version": "0.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ghostwriter/filesystem.git",
-                "reference": "48779b1db050cdeb3c1d9ff9752f75acd1318398"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/filesystem/zipball/48779b1db050cdeb3c1d9ff9752f75acd1318398",
-                "reference": "48779b1db050cdeb3c1d9ff9752f75acd1318398",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.3"
-            },
-            "require-dev": {
-                "ghostwriter/coding-standard": "dev-main"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Ghostwriter\\Filesystem\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Filesystem implementation for PHP",
-            "homepage": "https://github.com/ghostwriter/filesystem",
-            "keywords": [
-                "filesystem",
-                "ghostwriter"
-            ],
-            "support": {
-                "docs": "https://github.com/ghostwriter/filesystem",
-                "forum": "https://github.com/ghostwriter/filesystem/discussions",
-                "issues": "https://github.com/ghostwriter/filesystem/issues",
-                "rss": "https://github.com/ghostwriter/filesystem/releases.atom",
-                "security": "https://github.com/ghostwriter/filesystem/security/advisories/new",
-                "source": "https://github.com/ghostwriter/filesystem"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-10-10T16:28:42+00:00"
+            "time": "2025-11-02T01:14:37+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
