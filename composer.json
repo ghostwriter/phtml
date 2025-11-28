@@ -107,8 +107,8 @@
     },
     "extra": {
         "thanks": {
-            "url": "https://github.com/ghostwriter/phtml",
-            "name": "ghostwriter/phtml"
+            "name": "ghostwriter/phtml",
+            "url": "https://github.com/ghostwriter/phtml"
         }
     }
 }
