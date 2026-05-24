@@ -8,10 +8,6 @@
 "repository":
   "name": "phtml"
   "description": "[WIP] A powerful PHP template engine designed to deliver high-performance, extensibility, and security"
-  "topics":
-    - "ghostwriter"
-    - "phtml"
-    - "php"
   "homepage": "https://github.com/ghostwriter/phtml"
   "default_branch": "0.1.x"
   "allow_auto_merge": true
