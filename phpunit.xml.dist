@@ -14,7 +14,6 @@
     recordTestRunHistory="false"
     requireCoverageMetadata="true"
     requireSealedMockObjects="true"
-    stopOnFailure="true"
 >
     <coverage pathCoverage="true" disableCodeCoverageIgnore="true">
         <report>
@@ -23,6 +22,9 @@
             <text outputFile=".cache/phpunit/coverage.txt"/>
         </report>
     </coverage>
+    <extensions>
+        <bootstrap class="Mockery\Adapter\Phpunit\Extension" />
+    </extensions>
     <logging>
         <junit outputFile=".cache/phpunit/junit.xml"/>
     </logging>
